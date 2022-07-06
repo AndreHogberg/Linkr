@@ -7,7 +7,7 @@ module.exports = {
         'body': '48px'
       },
       colors:{
-        'light-green': '#D8F3DC'
+        'main-green': '#005C22'
       }
     },
   },
