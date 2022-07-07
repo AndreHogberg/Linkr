@@ -1,4 +1,5 @@
 using Linkr.Application;
+using Linkr.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +7,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices();
+
+
 
 var app = builder.Build();
 
